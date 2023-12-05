@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+    }
+body{
+    background-image: url(bg.jpg);
+}
+    .signin{
+       background-color: rgb(0,0, 0, 0.7) ;
+       align-items: center;
+       justify-content: center;
+       width: 500px;
+       height: 700px;
+       margin: auto;
+    }
+       h2{
+        color: rgb(238, 236, 236);
+        font-size: 30px;
+        padding-top: 50px;
+        margin-left: 90px;
+    }
+    #sign{
+        border-radius: 4px;
+        background-color: red;
+        margin: 25px;
+        height: 50px;
+        width: 320px;
+        color: white;
+        font-weight: 600;
+        font-size: 15px;
+        margin-left: 90px;
+        cursor: pointer;
+    }
+    nav img{
+        width: 150px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: 30px;
+        opacity: 1.5;
+        filter: brightness(0.9);
+        cursor: pointer;
+    }
+    .input{
+        margin: 12px;
+        height: 50px;
+        width: 320px;
+        border-radius: 6px;
+        margin-left: 90px;
+        background: rgb(70, 67, 67);
+        color: grey;
+        font-size: 15px;
+
+    }
+    a{
+        text-decoration: none;
+        color: rgb(135,131,131);
+        justify-content: right;
+        align-items: right;
+        margin-left: 100px;
+    }
+    .check{
+        color: rgb(135,131,131);
+        margin-left: 90px;
+    }
+    #new{
+        margin-left: 90px;
+        color: rgb(135, 131, 131);
+    }
+    .up{
+        color: white;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    #para a{
+        color: blue;
+        text-decoration: none;
+        margin-left: 0;
+    }
+    .foot{
+       background-color: rgba(0,0,0,0.5);
+       color: rgb(135, 131, 131);
+    }
+    #para{
+        font-size: 15px;
+        color: rgb(135, 131, 131);
+        margin-left: 90px;
+    }
+</style>
+<body>
+    <nav>
+    <a href="index.html"><img src="logo.png" class="logo"></a>    
+        </nav>
+    <div class="signin">
+    <h2>Sign In</h2>
+    <form >
+        <input type="email number" placeholder="   Email or phone number" class="input" required
+        ><br>
+        <input type="password" placeholder="   Password" class="input" required><br>
+        <button id="sign">Sign In</button><br>
+        <span class="check"><input type="checkbox" >Remember Me</span>
+        <a href="#" class="check">Need Help?</a><br><br><br>
+       <p id="new"> New to Netflix? <span class="up">Sign up now.</span><br></p>
+    <p id="para">This page is protected by Google reCAPTCHA to <br>ensure you're not a bot.<a href="#"> Learn more.</p></a>
+    </form>
+</body>
+</html>
